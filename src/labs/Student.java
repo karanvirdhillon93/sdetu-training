@@ -113,7 +113,7 @@ public class Student implements EmailID {
 	}
 	
 	public void checkBalance() {
-		System.out.println("Outstanding fees are: $"+this.studentFees);
+		System.out.println("Outstanding fees are:$"+this.studentFees);
 	}
 	
 	public String toString() {
