@@ -12,7 +12,6 @@ public class Demo {
 		
 		Scanner in = new Scanner(System.in);
 		double payment;
-		System.out.println(payment);
 		payment = in.nextDouble();
 		
 	}
