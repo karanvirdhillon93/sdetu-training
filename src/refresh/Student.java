@@ -38,7 +38,7 @@ public class Student {
 		int randomNum=r.nextInt((max - min) + 1) + min;
 		
 		//last 4 of ssn
-		String lastFour=ssn.substring(0, 4);
+		String lastFour=ssn.substring(0, 4); 
 		
 		this.userID=this.ID+String.valueOf(randomNum)+lastFour;
 		System.out.println("Student id is:"+this.userID);
